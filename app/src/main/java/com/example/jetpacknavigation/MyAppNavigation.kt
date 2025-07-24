@@ -16,7 +16,7 @@ fun MyAppNavigation(){
         }
         composable(Routes.screenB+"/{name}") {
             val name = it.arguments?.getString("name")
-            ScreenB(name?:"No Nameeeeeeeeeee")
+            ScreenB(name?:"No Name")
         }
 
     })
